@@ -183,6 +183,39 @@
   <ItemGroup>
     <None Include="Resources\shaders\Sprite.hlsli" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\External\KamataEngine\include\2d\DebugText.h" />
+    <ClInclude Include="..\External\KamataEngine\include\2d\ImGuiManager.h" />
+    <ClInclude Include="..\External\KamataEngine\include\2d\Sprite.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\AxisIndicator.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\Camera.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\CircleShadow.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\DebugCamera.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\DirectionalLight.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\LightGroup.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\Material.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\Mesh.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\Model.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\ObjectColor.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\PointLight.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\PrimitiveDrawer.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\SpotLight.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\Terrain.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\TerrainCommon.h" />
+    <ClInclude Include="..\External\KamataEngine\include\3d\WorldTransform.h" />
+    <ClInclude Include="..\External\KamataEngine\include\audio\Audio.h" />
+    <ClInclude Include="..\External\KamataEngine\include\base\DirectXCommon.h" />
+    <ClInclude Include="..\External\KamataEngine\include\base\StringUtility.h" />
+    <ClInclude Include="..\External\KamataEngine\include\base\TextureManager.h" />
+    <ClInclude Include="..\External\KamataEngine\include\base\WinApp.h" />
+    <ClInclude Include="..\External\KamataEngine\include\input\Input.h" />
+    <ClInclude Include="..\External\KamataEngine\include\KamataEngine.h" />
+    <ClInclude Include="..\External\KamataEngine\include\math\MathUtility.h" />
+    <ClInclude Include="..\External\KamataEngine\include\math\Matrix4x4.h" />
+    <ClInclude Include="..\External\KamataEngine\include\math\Vector2.h" />
+    <ClInclude Include="..\External\KamataEngine\include\math\Vector3.h" />
+    <ClInclude Include="..\External\KamataEngine\include\math\Vector4.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
